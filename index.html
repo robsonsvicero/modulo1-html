@@ -8,87 +8,117 @@
 </head>
 
 <body>
-    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <font face="Helvetica">
+        <h1 id="inicio">Primeiros Passos com HTML</h1>
+    </font>
+
     <hr>
 
-    <h2>Índice</h2>
 
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+    <font face="Arial">
+        <h2>Índice</h2>
 
-    <h2>História dos computadores</h2>
-    <small><a href="#inicio">(VOLTAR)</a></small>
+        <ul>
+            <li><a href="#">História dos computadores</a></li>
+            <li><a href="#">O que são <i>Clients</i>?</a></li>
+            <li><a href="#">O que são <i>Servers</i>?</a></li>
+            <li><a href="#">Como é uma estrutura básica de um HTML</a></li>
+            <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+            <li><a href="#">Links de referências</a></li>
+        </ul>
 
-    <p>A história dos computadores remonta a séculos atrás, com o surgimento de dispositivos mecânicos como o ábaco e a
-        máquina de calcular de Blaise Pascal no século XVII. No entanto, o marco mais significativo ocorreu no século XX
-        com a invenção dos primeiros computadores eletrônicos. O ENIAC, desenvolvido na década de 1940, é considerado um
-        dos primeiros computadores de uso geral. Desde então, a tecnologia evoluiu rapidamente, passando dos gigantescos
-        mainframes para os compactos e poderosos laptops e smartphones que usamos hoje. A evolução dos computadores
-        transformou o mundo, influenciando todos os aspectos da vida moderna, desde a ciência até o entretenimento.</p>
 
-    <h2>O que são Clients?</h2>
-    <small><a href="#inicio">(VOLTAR)</a></small>
+        <h2>História dos computadores</h2>
+        <small><a href="#inicio">(VOLTAR)</a></small>
+        <p>A história dos computadores remonta a séculos atrás, com o surgimento de dispositivos mecânicos como o ábaco
+            e a
+            máquina de calcular de Blaise Pascal no século XVII. No entanto, o marco mais significativo ocorreu no
+            século XX
+            com a invenção dos primeiros computadores eletrônicos. O ENIAC, desenvolvido na década de 1940, é
+            considerado um
+            dos primeiros computadores de uso geral. Desde então, a tecnologia evoluiu rapidamente, passando dos
+            gigantescos
+            mainframes para os compactos e poderosos laptops e smartphones que usamos hoje. A evolução dos computadores
+            transformou o mundo, influenciando todos os aspectos da vida moderna, desde a ciência até o entretenimento.
+        </p>
 
-    <p>Clients, ou clientes, são dispositivos ou programas que solicitam serviços ou recursos de um servidor. No
-        contexto da internet, um cliente pode ser um navegador web como o Chrome ou o Firefox, que solicita páginas web
-        de servidores para exibi-las aos usuários. Basicamente, o cliente é quem inicia a comunicação, enviando pedidos
-        e aguardando respostas. Essa interação é fundamental para o funcionamento da web e de diversas aplicações em
-        rede, onde o cliente consome os serviços oferecidos pelo servidor.</p>
+        <font color="blue">
+            <h2>O que são Clients?</h2>
+        </font>
+        <small><a href="#inicio">(VOLTAR)</a></small>
 
-    <h2>O que são Servers?</h2>
-    <small><a href="#inicio">(VOLTAR)</a></small>
+        <font size="5">
+            <p>Clients, ou clientes, são dispositivos ou programas que solicitam serviços ou recursos de um servidor. No
+                contexto da internet, um cliente pode ser um navegador web como o Chrome ou o Firefox, que solicita
+                páginas web
+                de servidores para exibi-las aos usuários. Basicamente, o cliente é quem inicia a comunicação, enviando
+                pedidos
+                e aguardando respostas. Essa interação é fundamental para o funcionamento da web e de diversas
+                aplicações em
+                rede, onde o cliente consome os serviços oferecidos pelo servidor.</p>
+        </font>
 
-    <p>Servers, ou servidores, são sistemas que fornecem recursos, dados, serviços ou programas a outros computadores,
-        conhecidos como clientes, através de uma rede. Eles desempenham um papel crucial na infraestrutura de TI,
-        servindo conteúdos da web, hospedando sites, armazenando dados e executando aplicações. Um servidor pode ser um
-        computador físico dedicado ou uma máquina virtual em um ambiente de computação em nuvem. Eles estão sempre
-        prontos para responder às solicitações dos clientes, garantindo que as informações e serviços estejam
-        disponíveis de forma eficiente e segura.</p>
+        <h2>O que são Servers?</h2>
+        <small><a href="#inicio">(VOLTAR)</a></small>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <small><a href="#inicio">(VOLTAR)</a></small>
+        <p>Servers<del>, ou servidores,</del> são sistemas que fornecem recursos, dados, serviços ou programas a outros
+            computadores,
+            conhecidos como clientes, através de uma rede. Eles desempenham um papel crucial na infraestrutura de TI,
+            servindo conteúdos da web, hospedando sites, armazenando dados e executando aplicações. Um servidor pode ser
+            um
+            computador físico dedicado ou uma máquina virtual em um ambiente de computação em nuvem. Eles estão sempre
+            prontos para responder às solicitações dos clientes, garantindo que as informações e serviços estejam
+            disponíveis de forma eficiente e segura.</p>
 
-    <p>Uma estrutura básica de um HTML é composta por um conjunto de elementos que definem o conteúdo e a organização de
-        uma página web. O código HTML começa com a declaração
-        <!DOCTYPE html>, seguida pela tag <html>, que encapsula todo o conteúdo da página. Dentro dela, temos a tag
+        <h2>Como é uma estrutura básica de um <abbr
+                title="HyperText Markup Language — Linguagem de Marcação de Hipertexto">HTML?</abbr>?</h2>
+        <small><a href="#inicio">(VOLTAR)</a></small>
 
-        <head>, que contém meta-informações como o título da página (definido pela tag <title>), links para folhas de
-                estilo, scripts, entre outros. Em seguida, a tag
+        <p>Uma estrutura básica de um HTML é composta por um conjunto de elementos que definem o conteúdo e a
+            organização de
+            uma página web. O código HTML começa com a declaração
+            <!DOCTYPE html>, seguida pela tag <html>, que encapsula todo o conteúdo da página. Dentro dela, temos a tag
 
-        <body> contém o conteúdo visível da página, como textos, imagens, links e formulários. Cada elemento HTML é
-            definido por tags que indicam sua função específica, permitindo que navegadores interpretem e exibam a
-            página corretamente.
-    </p>
+            <head>, que contém meta-informações como o título da página (definido pela tag <title>), links para folhas
+                    de
+                    estilo, scripts, entre outros. Em seguida, a tag
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <small><a href="#inicio">(VOLTAR)</a></small>
+            <body> contém o conteúdo visível da página, como textos, imagens, links e formulários. Cada elemento HTML é
+                definido por tags que indicam sua função específica, permitindo que navegadores interpretem e exibam a
+                página corretamente.
+        </p>
 
-    <p>Listas ordenadas e não ordenadas são formas comuns de organizar informações em HTML. As listas ordenadas, criadas
-        com a tag
-    <ol>, exibem os itens em uma sequência numérica ou alfabética, sendo ideais para instruções passo a passo ou
-        classificações. Cada item é definido pela tag <li>. Já as listas não ordenadas, formadas pela tag <ul>,
-                apresentam os itens com marcadores (bullets) ao invés de números, sendo mais adequadas para elencar
-                informações sem uma ordem específica. Ambas são úteis para estruturar dados de maneira clara e
-                acessível, facilitando a leitura e a compreensão do conteúdo pelos usuários.</p>
+        <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+        <small><a href="#inicio">(VOLTAR)</a></small>
 
-                <h2>Links re referências</h2>
-                <small><a href="#inicio">(VOLTAR)</a></small>
-                <ul>
-                    <li><a href="https://tableless.com.br/" target="_blank">Tableless - Um blog focado em
-                            desenvolvimento web moderno, com artigos e tutoriais sobre HTML, CSS, JavaScript e mais.</a>
-                    </li>
-                    <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs é um
-                            projeto colaborativo de código aberto que documenta tecnologias de plataforma Web, incluindo
-                            CSS , HTML , JavaScript e APIs Web . </a></li>
-                    <li><a href="https://youtu.be/3oSIqIqzN3M?si=81jLcNhFjiT_-2_p" target="_blank">5 MINUTOS DE HTML
-                            PARA INICIAR EM PROGRAMAÇÃO!</a></li>
-                </ul>
+        <p>Listas ordenadas e não ordenadas são formas comuns de organizar informações em HTML. As listas ordenadas,
+            criadas
+            com a tag
+        <ol>, exibem os itens em uma sequência numérica ou alfabética, sendo ideais para instruções passo a passo ou
+            classificações. Cada item é definido pela tag <li>. Já as listas não ordenadas, formadas pela tag <ul>,
+                    apresentam os itens com marcadores (bullets) ao invés de números, sendo mais adequadas para elencar
+                    informações sem uma ordem específica. Ambas são úteis para estruturar dados de maneira clara e
+                    acessível, facilitando a leitura e a compreensão do conteúdo pelos usuários.</p>
+
+                    <h2>Links re referências</h2>
+                    <small><a href="#inicio">(VOLTAR)</a></small>
+                    <ul>
+                        <li><a href="https://tableless.com.br/" target="_blank">Tableless - Um blog focado em
+                                desenvolvimento web moderno, com artigos e tutoriais sobre HTML, CSS, JavaScript e
+                                mais.</a>
+                        </li>
+                        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs é
+                                um
+                                projeto colaborativo de código aberto que documenta tecnologias de plataforma Web,
+                                incluindo
+                                CSS , HTML , JavaScript e APIs Web . </a></li>
+                        <li><a href="https://youtu.be/3oSIqIqzN3M?si=81jLcNhFjiT_-2_p" target="_blank">5 MINUTOS DE HTML
+                                PARA INICIAR EM PROGRAMAÇÃO!</a></li>
+                    </ul>
+    </font>
+
+
+
 
 </body>
 
